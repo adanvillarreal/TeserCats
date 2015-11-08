@@ -46,7 +46,7 @@ public class pasaporte {
             line=reader.readLine();
         }
 
-        System.out.println(text);
+        //System.out.println(text);
 
         z=0;
 
@@ -55,7 +55,7 @@ public class pasaporte {
                 z++;
             }
         }catch (StringIndexOutOfBoundsException e){
-            System.out.println("***********************************");
+            //System.out.println("***********************************");
             JOptionPane.showMessageDialog(null, "Hubo un error con la calidad de la imagen en " + path);
             return;
 
@@ -66,7 +66,7 @@ public class pasaporte {
         //text=text.substring(0, 87);
         getFields(text);
 
-        System.out.println(text);
+        //System.out.println(text);
 
         /*Scanner stdin = new Scanner (System.in);
         String a = stdin.next();
@@ -101,9 +101,9 @@ public class pasaporte {
             Datos[count++] = "INDEFINIDO";
         Datos[count++] = code.substring(67, 69) + "/" + code.substring(65, 67);
 
-        for(int m = 0; m < 7; m++){
+        /*for(int m = 0; m < 7; m++){
             System.out.println(Datos[m]);
-        }
+        }*/
 
     }
 

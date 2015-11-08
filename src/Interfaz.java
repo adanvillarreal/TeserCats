@@ -336,11 +336,11 @@ public class Interfaz extends javax.swing.JFrame {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
 
-        String line = "";
+        /*String line = "";
         while((line = reader.readLine()) != null) {
             System.out.print(line + "\n");
-        }
-        proc.waitFor();
+        }*/
+        proc.waitFor(); //creo
 
 
 
@@ -371,7 +371,7 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here: -generar excel
         String headers = "Apellidos,Nombres,Numero de Pasaporte,Nacionalidad,Fecha de Nacimiento,Sexo,Fecha de Expiracion";
         String n = NombreExcelTF.getText();
-        System.out.println("*"+n+"*");
+        //System.out.println("*"+n+"*");
         if(n.equals(""))
             JOptionPane.showMessageDialog(null, "Inserta un nombre al archivo");
         else {
