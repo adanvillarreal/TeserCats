@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OBJPasaportes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OBJPasaportes_jar</output-path>
+    <root id="archive" name="OBJPasaportes.jar">
+      <element id="module-output" name="OBJPasaportes" />
+    </root>
+  </artifact>
+</component>

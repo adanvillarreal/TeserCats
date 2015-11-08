@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="tesserCats">
+    <output-path>$PROJECT_DIR$/out/artifacts/tesserCats</output-path>
+    <root id="archive" name="tesserCats.jar">
+      <element id="module-output" name="OBJPasaportes" />
+    </root>
+  </artifact>
+</component>
