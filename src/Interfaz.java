@@ -74,7 +74,7 @@ public class Interfaz extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
-        jLabel1.setText("LogistiCatz");
+        jLabel1.setText("TesserCats");
 
         jLabel2.setText("Anexar imagen");
 
